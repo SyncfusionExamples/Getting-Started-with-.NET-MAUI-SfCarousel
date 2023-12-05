@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="GettingStartedCarousel.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:carousel="clr-namespace:Syncfusion.Maui.Carousel;assembly=Syncfusion.Maui.Carousel"
+    xmlns:viewModel="clr-namespace:GettingStartedCarousel.ViewModel">
+
+    <ContentPage.BindingContext>
+        <viewModel:CarouselViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="itemTemplate">
+                <Image Aspect="AspectFit" Source="{Binding Image}" />
+            </DataTemplate>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <carousel:SfCarousel
+            x:Name="carousel"
+            HeightRequest="400"
+            ItemHeight="300"
+            ItemTemplate="{StaticResource itemTemplate}"
+            ItemWidth="200"
+            ItemsSource="{Binding ImageCollection}"
+            ViewMode="Default"
+            WidthRequest="800" />
+    </ContentPage.Content>
+
+</ContentPage>
