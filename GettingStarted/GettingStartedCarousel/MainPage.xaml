@@ -10,20 +10,11 @@
         <viewModel:CarouselViewModel />
     </ContentPage.BindingContext>
 
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <DataTemplate x:Key="itemTemplate">
-                <Image Aspect="AspectFit" Source="{Binding Image}" />
-            </DataTemplate>
-        </ResourceDictionary>
-    </ContentPage.Resources>
-
     <ContentPage.Content>
         <carousel:SfCarousel
             x:Name="carousel"
             HeightRequest="400"
             ItemHeight="300"
-            ItemTemplate="{StaticResource itemTemplate}"
             ItemWidth="200"
             ItemsSource="{Binding ImageCollection}"
             ViewMode="Default"
