@@ -4,15 +4,9 @@ The [.NET MAUI Carousel](https://www.syncfusion.com/maui-controls/maui-carousel?
 
 ![.NET MAUI Carousel](https://cdn.syncfusion.com/nuget-readme/maui/net_maui_carousel.gif)
 
-[Docs](https://help.syncfusion.com/maui/carousel-view/overview) | [Online Demo](https://github.com/syncfusion/maui-demos) | [Support](https://support.syncfusion.com/support/tickets/create) | [Forums](https://www.syncfusion.com/forums/maui) | [Feedback](https://www.syncfusion.com/feedback/maui)
-
-#### Getting Started
-
-* [Getting Started with .NET MAUI Carousel](https://help.syncfusion.com/maui/carousel-view/getting-started)
-
 ## Project pre-requisites
 
-Make sure that you have the compatible versions of Visual Studio with .NET MAUI workloads and .NET SDK version in your machine before starting to work on this project. Refer to [System Requirements for .NET MAUI](https://help.syncfusion.com/maui/system-requirements).
+Make sure that you have the compatible versions of Visual Studio with .NET MAUI workloads and .NET SDK version in your machine before starting to work on this project. Refer to [System Requirements for .NET MAUI](https://help.syncfusion.com/maui/system-requirements?utm_source=github&utm_medium=listing&utm_campaign=maui-carousel-github-samples).
 
 ## How to run this application?
 
@@ -30,19 +24,18 @@ Syncfusion has no liability for any damage or consequence that may arise by usin
 ## Features and Benefits
 
 ### Data binding
-The Carousel control allows the use of .NET MAUI BindableLayout to bind a data collection and populate the control.
+Data binding works out of the box for all the [popular data](https://help.syncfusion.com/maui/carousel-view/populating-data?utm_source=github&utm_medium=listing&utm_campaign=maui-carousel-github-samples) sources. Every aspect of the Carousel control has been designed with the MVVM pattern in mind.
 
-### Expand and collapse
-The Carousel control allows users to interactively and programmatically customize the expand and collapse actions.
 
-### Animation
-Enhances the user experience with animated transitions for item expansion and collapse. The animations can be customized by turning them on or off, adjusting the duration of the expanding and collapsing animations, and modifying the easing style.
+### Custom templates
+The .NET MAUI Carousel control accepts templates to change the look of its items.
 
-### Visual state manager
-Modify the appearance of Carousel items according to their expanded and collapsed states by utilizing the visual state manager.
+### On-demand loading
+On-demand loading enables users to load a subset of data in the .NET MAUI Carousel control and to [load more](https://help.syncfusion.com/maui/carousel-view/loadmore?utm_source=github&utm_medium=listing&utm_campaign=maui-carousel-github-samples) items when needed. It helps users increase initial loading performance when populating a huge number of items.
 
-### Expander icon position
-The Carousel provides the flexibility to customize the placement of the header icon in Carousel items.
+### Virtualization
+The .NET MAUI Carousel control has been [virtualized](https://help.syncfusion.com/maui/carousel-view/UIVirtualization?utm_source=github&utm_medium=listing&utm_campaign=maui-carousel-github-samples) to improve loading performance and reduce the app’s memory.
+
 
 ## Related links
 [Learn More about .NET MAUI Carousel](https://www.syncfusion.com/maui-controls/maui-carousel?utm_source=github&utm_medium=listing&utm_campaign=maui-carousel-github-samples)
