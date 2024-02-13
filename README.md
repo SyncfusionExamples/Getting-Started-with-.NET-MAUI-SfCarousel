@@ -26,7 +26,6 @@ Syncfusion has no liability for any damage or consequence that may arise by usin
 ### Data binding
 Data binding works out of the box for all the [popular data](https://help.syncfusion.com/maui/carousel-view/populating-data?utm_source=github&utm_medium=listing&utm_campaign=maui-carousel-github-samples) sources. Every aspect of the Carousel control has been designed with the MVVM pattern in mind.
 
-
 ### Custom templates
 The .NET MAUI Carousel control accepts templates to change the look of its items.
 
@@ -35,7 +34,6 @@ On-demand loading enables users to load a subset of data in the .NET MAUI Carous
 
 ### Virtualization
 The .NET MAUI Carousel control has been [virtualized](https://help.syncfusion.com/maui/carousel-view/UIVirtualization?utm_source=github&utm_medium=listing&utm_campaign=maui-carousel-github-samples) to improve loading performance and reduce the app’s memory.
-
 
 ## Related links
 [Learn More about .NET MAUI Carousel](https://www.syncfusion.com/maui-controls/maui-carousel?utm_source=github&utm_medium=listing&utm_campaign=maui-carousel-github-samples)
